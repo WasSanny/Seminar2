@@ -15,10 +15,12 @@ while (index < number)
     Console.WriteLine("Число кратное и 7 и 23");
     sum = sum + a;
     index++;
+    Console.WriteLine($"{index}-е кратное число!");
   }
   else
   {
     Console.WriteLine("Число не кратное и 7 и 23");
   }
 }
+Console.Write("Сумма 5 (пяти) кратных чисел: ");
 Console.WriteLine(sum);
